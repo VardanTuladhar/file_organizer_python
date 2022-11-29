@@ -8,4 +8,4 @@ print("Files and Directories in " + path)
 for file in scanner:
     if file.is_dir() or file.is_file():
         print(file.name)
-    
+org_choice = input("1. file type \n 2.date ")
